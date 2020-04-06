@@ -1,0 +1,13 @@
+{
+    "name": "haku/composer",
+    "authors": [
+        {
+            "name": "gabrieljakubek",
+            "email": "gabrieljakubek@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "namnv609/php-rest-countries": "^1.0"
+    }
+}
