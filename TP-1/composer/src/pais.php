@@ -163,4 +163,17 @@ class Pais extends continente implements IDatos
         return Pais::CargarPaises($paises);
     }
 
+    public static function MostrarPaises($paises)
+    {
+        foreach ($paises as $key => $value) {
+            $value->Mostrar();
+        }
+    }
+    public static function MostrarPaisesJson($paises)
+    {
+        foreach ($paises as $key => $value) {
+            $value->MostrarEnJson();
+        }
+    }
+
 }
